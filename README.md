@@ -104,10 +104,14 @@ from sklearn.metrics import classification_report
 <img width="720" alt="Logistic Regression Strategy" src="https://user-images.githubusercontent.com/101449950/181599338-b57766eb-5381-4256-8888-d921e2b9452c.png">
 
 #### AdaBoost Strategy
+Documentation
+The core principle of AdaBoost is to fit a sequence of weak learners (i.e., models that are only slightly better than random guessing, such as small decision trees) on repeatedly modified versions of the data. The predictions from all of them are then combined through a weighted majority vote (or sum) to produce the final prediction. The data modifications at each so-called boosting iteration consist of applying weights , , …,  to each of the training samples. Initially, those weights are all set to , so that the first step simply trains a weak learner on the original data. For each successive iteration, the sample weights are individually modified and the learning algorithm is reapplied to the reweighted data. At a given step, those training examples that were incorrectly predicted by the boosted model induced at the previous step have their weights increased, whereas the weights are decreased for those that were predicted correctly. As iterations proceed, examples that are difficult to predict receive ever-increasing influence. Each subsequent weak learner is thereby forced to concentrate on the examples that are missed by the previous ones in the sequence [HTF].
+
 
 <img width="731" alt="AdaBoost Strategy" src="https://user-images.githubusercontent.com/101449950/181599423-796ce284-addd-4148-a2a3-04fbd8f3b080.png">
 
 
 #### Decision Tree Strategy
+Decision Trees (DTs) are a non-parametric supervised learning method used for classification and regression. The goal is to create a model that predicts the value of a target variable by learning simple decision rules inferred from the data features. A tree can be seen as a piecewise constant approximation.
 
 <img width="738" alt="Decision Trees Strategy" src="https://user-images.githubusercontent.com/101449950/181599562-f6e5b066-ed66-479a-b21f-5199713c328c.png">
