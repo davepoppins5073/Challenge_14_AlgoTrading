@@ -1,4 +1,4 @@
-# Challenge_14_AlgoTrading!
+# Challenge_14_AlgoTrading
 ![14-4-challenge-image](https://user-images.githubusercontent.com/101449950/181592065-3303ef55-0eff-4bf7-acee-4e2de015e37f.png)
 
 ## 1. INTRO 
