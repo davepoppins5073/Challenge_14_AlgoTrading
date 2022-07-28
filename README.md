@@ -13,9 +13,11 @@ Update the `machine_learning_trading_bot.ipynb` file.
 3. Evaluate a New Machine Learning Classifier
 4. Create an Evaluation Report
 
+-----
+
 #### Part 1: Establish a Baseline Performance
 
-Restart the kernel, run the provided cells that correspond with the first three steps, and then proceed to step four. 
+**(Restart the kernel, run the provided cells that correspond with the first three steps, and then proceed to step four).** 
 
 1. Import the OHLCV dataset into a Pandas DataFrame.
 2. Generate trading signals using short- and long-window SMA values. 
@@ -28,7 +30,7 @@ Restart the kernel, run the provided cells that correspond with the first three 
 
 #### Part 2: Tune the Baseline Trading Algorithm
 
-In this section, you’ll tune, or adjust, the model’s input features to find the parameters that result in the best trading outcomes. (You’ll choose the best by comparing the cumulative products of the strategy returns.)
+Adjust, the model’s input features to find the parameters that result in the best trading outcomes.
 
 1. Tune the training algorithm by adjusting the size of the training dataset.
 2. Tune the trading algorithm by adjusting the SMA input features. Adjust one or both of the windows for the algorithm. 
