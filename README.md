@@ -115,3 +115,13 @@ The core principle of AdaBoost is to fit a sequence of weak learners (i.e., mode
 Decision Trees (DTs) are a non-parametric supervised learning method used for classification and regression. The goal is to create a model that predicts the value of a target variable by learning simple decision rules inferred from the data features. A tree can be seen as a piecewise constant approximation.
 
 <img width="738" alt="Decision Trees Strategy" src="https://user-images.githubusercontent.com/101449950/181599562-f6e5b066-ed66-479a-b21f-5199713c328c.png">
+
+## **Conclusions/Questions**
+We used the following classifiers in order to achieve optimal cumulative return from our trading bot.
+
+1. support vector machine (SVM), 
+2. **AdaBoost 
+3. **DecisionTreeClassifier, 
+4. **LogisticRegression 
+
+Of the three highlighted classifiers (all of which were set-up using the SVM parameters) the AdaBoost Classifier performed the best.
