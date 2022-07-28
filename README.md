@@ -48,6 +48,9 @@ In this section, you’ll use the original parameters that the starter code prov
 
 In the previous sections, you updated your `README.md` file with your conclusions. To accomplish this section, you need to add a summary evaluation report at the end of the `README.md` file. For this report, express your final conclusions and analysis. Support your findings by using the PNG images that you created.
 
+## 2. Tune the Baseline Trading Algorithm
+
+
 ## 3. Prerequisites
 
 ### 3.1 Requirements Text File
