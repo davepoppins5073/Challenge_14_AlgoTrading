@@ -82,8 +82,8 @@ from sklearn.metrics import classification_report
 ```
 
 ### Documentation Links (Streamlit, Hashlib, Dataclasses)
-1. https://docs.streamlit.io/
-2. https://docs.python.org/3/library/hashlib.html
-3. https://docs.python.org/3/library/dataclasses.html
+1. https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html
+2. https://pandas.pydata.org/docs/reference/api/pandas.tseries.offsets.DateOffset.html
+3. https://hvplot.holoviz.org/user_guide/Pandas_API.html
 
 ## 4 Code 
