@@ -22,7 +22,7 @@ I created a requirements file that has been included in this repo.
 I used the following to create the requirements file
 
 ```bash
- pip freeze > requirements_CH18.txt
+ pip freeze > requirements_14.txt
 
 ```
 
