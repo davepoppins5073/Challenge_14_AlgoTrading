@@ -116,7 +116,7 @@ Decision Trees (DTs) are a non-parametric supervised learning method used for cl
 
 <img width="738" alt="Decision Trees Strategy" src="https://user-images.githubusercontent.com/101449950/181599562-f6e5b066-ed66-479a-b21f-5199713c328c.png">
 
-## **Conclusions/Questions**
+## **Conclusions / Questions**
 We used the following classifiers in order to achieve optimal cumulative return from our trading bot.
 
 1. support vector machine (SVM), 
