@@ -87,3 +87,27 @@ from sklearn.metrics import classification_report
 3. https://hvplot.holoviz.org/user_guide/Pandas_API.html
 
 ## 4 Code 
+
+### Baseline Strategy
+
+<img width="742" alt="Baseline_Strategy" src="https://user-images.githubusercontent.com/101449950/181600115-8f09adcb-8207-45b4-8ff9-7d0738ba8cd9.png">
+
+
+#### Classifier: SVM Strategy
+<img width="728" alt="SVM Strategy" src="https://user-images.githubusercontent.com/101449950/181599887-919f144e-6677-4d68-a181-8a8ac3df3a4a.png">
+
+
+### Evaluate a new machine learning classifier
+
+#### Logistic Regressions Strategy
+
+<img width="720" alt="Logistic Regression Strategy" src="https://user-images.githubusercontent.com/101449950/181599338-b57766eb-5381-4256-8888-d921e2b9452c.png">
+
+#### AdaBoost Strategy
+
+<img width="731" alt="AdaBoost Strategy" src="https://user-images.githubusercontent.com/101449950/181599423-796ce284-addd-4148-a2a3-04fbd8f3b080.png">
+
+
+#### Decision Tree Strategy
+
+<img width="738" alt="Decision Trees Strategy" src="https://user-images.githubusercontent.com/101449950/181599562-f6e5b066-ed66-479a-b21f-5199713c328c.png">
