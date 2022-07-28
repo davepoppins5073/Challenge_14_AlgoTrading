@@ -50,6 +50,8 @@ In the previous sections, you updated your `README.md` file with your conclusion
 
 ## 2. Tune the Baseline Trading Algorithm
 
+change 2: 
+
 
 ## 3. Prerequisites
 
