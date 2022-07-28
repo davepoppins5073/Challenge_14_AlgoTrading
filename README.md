@@ -100,7 +100,7 @@ from sklearn.metrics import classification_report
 ### Evaluate a new machine learning classifier
 
 #### Logistic Regressions Strategy
-
+>  LinearRegression fits a linear model with coefficients  to minimize the residual sum of squares between the observed targets in the dataset, and the targets predicted by the linear approximation. The coefficient estimates for Ordinary Least Squares rely on the independence of the features. When features are correlated and the columns of the design matrix `X` have an approximately linear dependence, the design matrix becomes close to singular and as a result, the least-squares estimate becomes highly sensitive to random errors in the observed target, producing a large variance. This situation of multicollinearity can arise, for example, when data are collected without an experimental design.
 <img width="720" alt="Logistic Regression Strategy" src="https://user-images.githubusercontent.com/101449950/181599338-b57766eb-5381-4256-8888-d921e2b9452c.png">
 
 #### AdaBoost Strategy
