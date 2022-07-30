@@ -4,7 +4,7 @@
 ## 1. INTRO 
 `AIM`: Enhance the existing trading signals with machine learning algorithms that can adapt to new data.
 
-## 2. To - Do list
+## 2. To - Do List / Instructions
 
 Update the `machine_learning_trading_bot.ipynb` file.
 
@@ -48,11 +48,6 @@ In this section, you’ll use the original parameters that the starter code prov
 
 In the previous sections, you updated your `README.md` file with your conclusions. To accomplish this section, you need to add a summary evaluation report at the end of the `README.md` file. For this report, express your final conclusions and analysis. Support your findings by using the PNG images that you created.
 
-## 2. Tune the Baseline Trading Algorithm
-
-change 2: 
-
-
 ## 3. Prerequisites
 
 ### 3.1 Requirements Text File
@@ -91,16 +86,14 @@ from sklearn.metrics import classification_report
 2. https://pandas.pydata.org/docs/reference/api/pandas.tseries.offsets.DateOffset.html
 3. https://hvplot.holoviz.org/user_guide/Pandas_API.html
 
-## 4 Code 
+## RESULTS 
 
 ### Baseline Strategy
 
 <img width="742" alt="Baseline_Strategy" src="https://user-images.githubusercontent.com/101449950/181600115-8f09adcb-8207-45b4-8ff9-7d0738ba8cd9.png">
 
-
 #### Classifier: SVM Strategy
 <img width="728" alt="SVM Strategy" src="https://user-images.githubusercontent.com/101449950/181599887-919f144e-6677-4d68-a181-8a8ac3df3a4a.png">
-
 
 ### Evaluate a new machine learning classifier
 
