@@ -120,6 +120,17 @@ from sklearn.metrics import classification_report
 
 <img width="738" alt="Decision Trees Strategy" src="https://user-images.githubusercontent.com/101449950/181599562-f6e5b066-ed66-479a-b21f-5199713c328c.png">
 
+---
+## Project Analysis and Report
+
+### Summary: When our dateoffset is set at six months with the SVM model, the trading algorithm performed better and even increaseed the Strategy Returns to 1.8. Additionally, even the recall score also increased. Using a different model, a Logistic Regression model, does not improve the results of the algorithm. The details of the models are shown below:
+
+---
+
+
+
+
+
 ## **Conclusions / Questions**
 We used the following classifiers in order to achieve optimal cumulative return from our trading bot.
 
