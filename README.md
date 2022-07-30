@@ -116,7 +116,24 @@ from sklearn.metrics import classification_report
 ---
 ## Project Analysis and Report
 
-### Summary: When our dateoffset is set at six months with the SVM model, the trading algorithm performed better and even increaseed the Strategy Returns to 1.8. Additionally, even the recall score also increased. Using a different model, a Logistic Regression model, does not improve the results of the algorithm. The details of the models are shown below:
+### Summary: 
+
+When our dateoffset is set at six months with the SVM model, the trading algorithm performed better and even increaseed the Strategy Returns to 1.8. Additionally, even the recall score also increased. 
+
+Changing the moving averages didnt improve anything
+
+```python
+
+# Set the short window and long window
+short_window = 10
+long_window = 200
+
+# Generate the fast and slow simple moving averages (10 and 200 days, respectively)
+signals_df['SMA_Fast'] = signals_df['close'].rolling(window=short_window).mean()
+signals_df['SMA_Slow'] = signals_df['close'].rolling(window=long_window).mean()
+
+```
+
 
 ---
 
