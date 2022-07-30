@@ -134,7 +134,13 @@ signals_df['SMA_Slow'] = signals_df['close'].rolling(window=long_window).mean()
 
 ```
 
+Changing the offset:
 
+```python
+# Select the ending period for the training data with an offset of 6 months
+training_end2 = X2.index.min() + DateOffset(months=6)
+
+```
 ---
 
 
