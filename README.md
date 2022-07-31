@@ -146,6 +146,9 @@ training_end2 = X2.index.min() + DateOffset(months=6)
 
 ```
 ---
+<img width="502" alt="Screen Shot 2022-07-31 at 3 13 54 PM" src="https://user-images.githubusercontent.com/101449950/182041681-0605daa3-e356-4372-a27c-9fb934fe8a37.png">
+
+<img width="701" alt="Screen Shot 2022-07-31 at 3 15 09 PM" src="https://user-images.githubusercontent.com/101449950/182041704-8444f509-c070-4267-bd2f-f64fff9b326a.png">
 
 
 
