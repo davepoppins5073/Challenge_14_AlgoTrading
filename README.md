@@ -119,6 +119,7 @@ from sklearn.metrics import classification_report
 ### Summary: 
 
 When our dateoffset is set at six months with the SVM model, the trading algorithm performed better and even increaseed the Strategy Returns to 1.8. Additionally, even the recall score also increased. 
+<img width="474" alt="Screen Shot 2022-07-31 at 3 05 12 PM" src="https://user-images.githubusercontent.com/101449950/182041401-fa4385a4-a2c5-4117-b765-69c4a29d5c39.png">
 
 Changing the moving averages didnt improve anything
 
@@ -133,6 +134,9 @@ signals_df['SMA_Fast'] = signals_df['close'].rolling(window=short_window).mean()
 signals_df['SMA_Slow'] = signals_df['close'].rolling(window=long_window).mean()
 
 ```
+<img width="668" alt="Screen Shot 2022-07-31 at 2 55 27 PM" src="https://user-images.githubusercontent.com/101449950/182041223-e1f2ab7f-e270-4365-9345-ef5d147ee27e.png">
+
+
 
 Changing the offset:
 
